@@ -1,7 +1,7 @@
 // Generating the nth fibonnaci number
 use std::io;
 
-fn fibonnaci(n: u32) -> u32 {
+fn fibonnaci(n: u128) -> u128 {
     if n == 0{
         0
     } else if n == 1 {
